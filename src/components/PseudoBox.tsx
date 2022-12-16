@@ -8,7 +8,7 @@ export const PseudoBox = observer(() => {
 
     let setPseudo = (pseudo:string) => pseudoStore.setPseudo(pseudo)
 
-    let research = () => console.log(`research ${pseudoStore.pseudo}`)
+    let research = () => console.log(`research  ${pseudoStore.pseudo}`)
     return(
         <div>
         <label>
